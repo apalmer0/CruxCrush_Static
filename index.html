@@ -35,84 +35,156 @@
     <!-- navbar  -->
     <div class="navbar-wrapper">
       <div class="navbar navbar-inverse navbar-green navbar-fixed-top" role="navigation">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#"><img src="assets/img/logo_white_header.png" alt="Crux Crush"></a>
-					</div>
-					<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="#">Home</a></li>
-							<li>
-                <a role="button" data-toggle="collapse" href="#collapseBlog" aria-expanded="false" aria-controls="collapseBlog">
-                  Blog
-                </a>
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="assets/img/logo_white_header.png" alt="Crux Crush"></a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li>
+              <li>
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseResources">Resources</a>
               </li>
               <li>
-                <a role="button" data-toggle="collapse" href="#collapseResources" aria-expanded="false" aria-controls="collapseResources">
-                  Resources
-                </a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseBlog">Blog</a>
               </li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-        <div class="collapse row submenu" id="collapseBlog">
-          <div class="col-md-2">
-            <ul class="submenu-subcategories">Blog Categories:
-              <li class="submenu-subcategory-option">subcategory</li>
-              <li class="submenu-subcategory-option">subcategory</li>
-              <li class="submenu-subcategory-option">subcategory</li>
-              <li class="submenu-subcategory-option">subcategory</li>
+              <li><a href="#">Contact</a></li>
+              <li>
+                <form class="navbar-form">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-sm btn-default">Search</button>
+                </form>
+              </li>
             </ul>
           </div>
-          <div class="col-md-10 related-articles-section">
-            <div class="col-md-2 submenu-recommend-header">
-              <h4>Crux Crush Recommends:</h4>
-            </div>
-            <div class="col-md-2 submenu-related-article first-related-article">
-              <p>related</p>
-            </div>
-            <div class="col-md-2 submenu-related-article">
-              <p>related</p>
-            </div>
-            <div class="col-md-2 submenu-related-article">
-              <p>related</p>
-            </div>
-            <div class="col-md-2 submenu-related-article">
-              <p>related</p>
+        </div>
+      </div>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div id="collapseResources" class="panel-collapse collapse">
+            <div class="panel-body submenu">
+              <div class="col-md-3 col-sm-3">
+                <h4 class="submenu-header">Resources Categories:</h4>
+                <hr />
+                <ul class="submenu-subcategories">
+                  <li class="submenu-subcategory-option">subcategory</li>
+                  <li class="submenu-subcategory-option">subcategory</li>
+                  <li class="submenu-subcategory-option">subcategory</li>
+                  <li class="submenu-subcategory-option">subcategory</li>
+                </ul>
+              </div>
+              <div class="col-md-9 col-sm-9 related-articles-section">
+                <div class="row">
+                  <h4 class="submenu-header">Recommended:</h4>
+                  <hr />
+                </div>
+                <div class="row">
+                  <div class="col-md-3 col-sm-3">
+                    <div class="submenu-related-article">
+                      <img src="assets/img/climb.png" />
+                      <div class="article-thumbnail-info">
+                        <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                        <p class="article-thumbnail-author">Bodie Bear</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <div class="submenu-related-article">
+                      <img src="assets/img/climb.png" />
+                      <div class="article-thumbnail-info">
+                        <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                        <p class="article-thumbnail-author">Bodie Bear</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <div class="submenu-related-article">
+                      <img src="assets/img/climb.png" />
+                      <div class="article-thumbnail-info">
+                        <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                        <p class="article-thumbnail-author">Bodie Bear</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <div class="submenu-related-article">
+                      <img src="assets/img/climb.png" />
+                      <div class="article-thumbnail-info">
+                        <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                        <p class="article-thumbnail-author">Bodie Bear</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="collapse row submenu" id="collapseResources">
-          <div class="col-md-2">
-            <ul class="submenu-subcategories">Resources Categories:
-              <li class="submenu-subcategory-option">subcategory</li>
-              <li class="submenu-subcategory-option">subcategory</li>
-              <li class="submenu-subcategory-option">subcategory</li>
-              <li class="submenu-subcategory-option">subcategory</li>
-            </ul>
-          </div>
-          <div class="col-md-10 related-articles-section">
-            <div class="col-md-2 submenu-recommend-header">
-              <h4>Crux Crush Recommends:</h4>
-            </div>
-            <div class="col-md-2 submenu-related-article first-related-article">
-              <p>related</p>
-            </div>
-            <div class="col-md-2 submenu-related-article">
-              <p>related</p>
-            </div>
-            <div class="col-md-2 submenu-related-article">
-              <p>related</p>
-            </div>
-            <div class="col-md-2 submenu-related-article">
-              <p>related</p>
+        <div class="panel panel-default">
+          <div id="collapseBlog" class="panel-collapse collapse">
+            <div class="panel-body submenu">
+              <div class="col-md-3 col-sm-3">
+                <h4 class="submenu-header">Blog Categories:</h4>
+                <hr />
+                <ul class="submenu-subcategories">
+                  <li class="submenu-subcategory-option">subcategory</li>
+                  <li class="submenu-subcategory-option">subcategory</li>
+                  <li class="submenu-subcategory-option">subcategory</li>
+                  <li class="submenu-subcategory-option">subcategory</li>
+                </ul>
+              </div>
+              <div class="col-md-9 col-sm-9 related-articles-section">
+                <div class="row">
+                  <h4 class="submenu-header">Recommended:</h4>
+                  <hr />
+                </div>
+                <div class="row">
+                  <div class="col-md-3 col-sm-3">
+                    <div class="submenu-related-article">
+                      <img src="assets/img/climb.png" />
+                      <div class="article-thumbnail-info">
+                        <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                        <p class="article-thumbnail-author">Bodie Bear</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <div class="submenu-related-article">
+                      <img src="assets/img/climb.png" />
+                      <div class="article-thumbnail-info">
+                        <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                        <p class="article-thumbnail-author">Bodie Bear</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <div class="submenu-related-article">
+                      <img src="assets/img/climb.png" />
+                      <div class="article-thumbnail-info">
+                        <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                        <p class="article-thumbnail-author">Bodie Bear</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                    <div class="submenu-related-article">
+                      <img src="assets/img/climb.png" />
+                      <div class="article-thumbnail-info">
+                        <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                        <p class="article-thumbnail-author">Bodie Bear</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
