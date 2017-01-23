@@ -46,7 +46,7 @@
             <a class="navbar-brand" href="#"><img src="assets/img/logo_white_header.png" alt="Crux Crush"></a>
           </div>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right non-mobile-menu">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#">Contact</a></li>
               <li>
@@ -64,10 +64,124 @@
                 </form>
               </li>
             </ul>
+            <ul class="nav navbar-nav navbar-right mobile-menu" id="accordion0" role="tablist" aria-multiselectable="true">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion0" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Menu Option 1
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <h5>Subcategories</h5>
+                        <hr />
+                        <ul class="submenu-subcategories">
+                          <li class="submenu-subcategory-option">subcategory</li>
+                          <li class="submenu-subcategory-option">subcategory</li>
+                          <li class="submenu-subcategory-option">subcategory</li>
+                          <li class="submenu-subcategory-option">subcategory</li>
+                        </ul>
+                      </div>
+                      <div class="col-xs-6">
+                        <h5>Recommended</h5>
+                        <hr />
+                        <ul class="submenu-subcategories">
+                          <li class="submenu-subcategory-option">A title of an article will go here</li>
+                          <li class="submenu-subcategory-option">Another title here</li>
+                          <li class="submenu-subcategory-option">Another tile will go here</li>
+                          <li class="submenu-subcategory-option">This will be a third title</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Menu Option 2
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
+                          <img src="assets/img/climb.png" />
+                          <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
+                          <img src="assets/img/climb.png" />
+                          <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
+                          <img src="assets/img/climb.png" />
+                          <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Menu Option 3
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <h5>Recommended</h5>
+                        <hr />
+                        <ul class="submenu-subcategories">
+                          <li class="submenu-subcategory-option">A title of an article will go here</li>
+                          <li class="submenu-subcategory-option">Another title here</li>
+                          <li class="submenu-subcategory-option">Another tile will go here</li>
+                          <li class="submenu-subcategory-option">This will be a third title</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Menu Option 4
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <h5>Something else entirely</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="panel-group" id="accordion">
+      <div class="panel-group non-mobile-menu" id="accordion">
         <div class="panel panel-default">
           <div id="collapseResources" class="panel-collapse collapse">
             <div class="panel-body submenu">
