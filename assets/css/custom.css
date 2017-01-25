@@ -311,6 +311,34 @@ form textarea {
 	display: block;
 }
 
+.hero-image-container {
+  width: 1500px;
+  height: 750px;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.article-info {
+  background-color: rgba(250,250,250,0.7);
+  bottom: 25%;
+  color: #565656;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: absolute;
+  width: 100%;
+}
+
+.article-title {
+  font-size: 35px;
+}
+
+#hero-carousel > a:link, a:visited {
+  color: #17dbb0;
+}
+
 
 /* ==== LAYOUT ==== */
 
