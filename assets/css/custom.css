@@ -264,52 +264,6 @@ form textarea {
 	margin-top: 30px;
 }
 
-#price-timeline {
-	margin: 30px 0 60px;
-	text-align: center;
-}
-
-#price-timeline .price {
-	display: inline-block;
-	width: 30%;
-	margin: 0 2% 0 0;
-	background: #3e4249;
-	padding: 10px 20px 30px;
-	position: relative;
-	vertical-align: top;
-}
-
-#price-timeline .price.active {
-	background: #dd5638;
-}
-
-#price-timeline .price span {
-	background: #101010;
-	display: block;
-	height: 70px;
-	width: 70px;
-	text-align: center;
-	line-height: 70px;
-	font-weight: bold;
-	font-size: 24px;
-	border-radius: 100%;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	position: absolute;
-	bottom: -35px;
-	left: 50%;
-	margin-left: -35px;
-}
-
-#price-timeline h4 {
-	margin: 0 0 10px;
-}
-
-#price-timeline h4 small {
-	color: white;
-	font-weight: bold;
-	display: block;
-}
 
 .hero-image-container {
   width: 1500px;
@@ -339,7 +293,6 @@ form textarea {
   color: #17dbb0;
 }
 
-
 /* ==== LAYOUT ==== */
 
 .row + .row {
@@ -348,10 +301,6 @@ form textarea {
 
 section {
 	padding: 80px 0;
-}
-
-.section-header {
-	text-align: center;
 }
 
 section h2 {
@@ -404,6 +353,71 @@ section.main-content {
 
 #optin p {
 	margin: 7px 0 0 0;
+}
+
+#homepage-content {
+}
+
+#homepage-content hr {
+  border-color: #c3c3c3;
+}
+
+#homepage-content .input-group button {
+  background-color: #c3c3c3;
+}
+
+.article-preview {
+  position: relative;
+}
+
+.article-preview-content {
+}
+
+.article-preview-metadata {
+  padding-top: 30px;
+}
+
+.article-preview-title {
+  font-size: 30px;
+}
+
+.ads-sidebar {
+  border-left: 1px solid #c3c3c3;
+}
+
+.ad-160x600 {
+  background-color: #b8b8b8;
+  border: 1px solid #000;
+  height: 600px;
+  margin-top: 10px;
+  width: 160px;
+  text-align: center;
+}
+
+.ad-160x160 {
+  background-color: #b8b8b8;
+  border: 1px solid #000;
+  height: 160px;
+  margin-top: 10px;
+  width: 160px;
+  text-align: center;
+}
+
+.modal-content {
+  /*background-color: #fff !important;*/
+}
+.bottom-ad {
+  display: none;
+}
+
+.ad-320x50 {
+  background-color: #b8b8b8;
+  border: 1px solid #000;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 320px;
 }
 
 #course-features {
@@ -730,7 +744,7 @@ section.main-content {
     display: none;
   }
 }
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 767px) {
   .logo {
     width: 50%;
   }
@@ -825,6 +839,10 @@ section.main-content {
     width: 100%;
   }
 
+  .article-preview-title {
+    margin-top: 10px;
+  }
+
   .article-info {
     background-color: rgba(250,250,250,0.7);
     bottom: 15%;
@@ -837,6 +855,21 @@ section.main-content {
 
   .article-title {
     font-size: 20px;
+  }
+
+  .site-footer {
+    margin-bottom: 80px;
+  }
+
+  .bottom-ad {
+    display: block;
+  }
+
+  .ads-sidebar {
+    border-left: none;
+    border-top: 1px solid #c3c3c3;
+    margin-top: 20px;
+    padding-top: 20px;
   }
 }
 
@@ -881,6 +914,21 @@ section.main-content {
 
   .article-metadata {
     font-size: 10px;
+  }
+
+  .site-footer {
+    margin-bottom: 80px;
+  }
+
+  .bottom-ad {
+    display: block;
+  }
+
+  .ads-sidebar {
+    border-left: none;
+    border-top: 1px solid #c3c3c3;
+    margin-top: 20px;
+    padding-top: 20px;
   }
 }
 
@@ -1055,5 +1103,5 @@ footer img {
 
 .dev-credit {
   padding-right: 35px;
-  padding-bottom: 35px;
+  padding-bottom: 5px;
 }
