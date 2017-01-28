@@ -52,6 +52,10 @@ a:hover {
 	color: #c9302c;
 }
 
+a:visited, a:focus {
+	text-decoration: none;
+}
+
 blockquote {
 	padding: 0;
 	border: none;
@@ -277,6 +281,11 @@ form textarea {
 
 .article-title {
   font-size: 35px;
+}
+
+.article-title a {
+  color: #565656;
+  text-decoration: none;
 }
 
 /* ==== LAYOUT ==== */
@@ -1030,6 +1039,10 @@ body {
   width: 95%;
 }
 
+.submenu-related-article a {
+  color: #000;
+}
+
 .related-article-holder {
   width: 100%;
 }
@@ -1043,8 +1056,16 @@ body {
 }
 
 .submenu-subcategories {
-  list-style: none;
   color: #666;
+  list-style: none;
+  padding-left: 0;
+}
+
+.submenu-subcategories a {
+  text-decoration: none;
+  color: #666;
+  list-style: none;
+  padding-left: 0;
 }
 
 .submenu-subcategory-option {
