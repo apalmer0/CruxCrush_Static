@@ -47,10 +47,6 @@ p {
 	margin: 0 0 15px;
 }
 
-a:link, a:visited {
-	color: #dd5638;
-}
-
 a:hover {
 	text-decoration: none;
 	color: #c9302c;
@@ -75,12 +71,6 @@ blockquote:before {
 
 img {
 	max-width: 100%;
-}
-
-button, input, .btn, a.btn {
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
-	color: white;
 }
 
 .btn {
@@ -114,8 +104,8 @@ a.text-danger:hover {
 	color: #e55939;
 }
 
-.modal-content{
-	background: url('../img/tile.jpg') top left repeat;
+.modal-signup {
+  width: 100%;
 }
 
 .badge.social {
@@ -289,10 +279,6 @@ form textarea {
   font-size: 35px;
 }
 
-#hero-carousel > a:link, a:visited {
-  color: #17dbb0;
-}
-
 /* ==== LAYOUT ==== */
 
 .row + .row {
@@ -358,6 +344,15 @@ section.main-content {
 #homepage-content {
 }
 
+.homepage-content-header {
+  -webkit-font-smoothing: antialiased;
+  font-size: 3em;
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+  margin: 0 0 40px;
+  line-height: 1.1;
+}
+
 #homepage-content hr {
   border-color: #c3c3c3;
 }
@@ -379,6 +374,37 @@ section.main-content {
 
 .article-preview-title {
   font-size: 30px;
+  cursor: pointer;
+}
+
+.article-preview-thumbnail {
+  cursor: pointer;
+}
+
+.article-preview-thumbnail-container {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.article-preview-author {
+  color: #000;
+}
+
+.article-preview-author:hover {
+  color: #000;
+  text-decoration: underline;;
+}
+
+.article-preview-description {
+  cursor: pointer;
+}
+
+.article-preview-title a:hover {
+  color: #17dbb0;
+}
+
+.article-preview a {
+  color: #565656;
 }
 
 .ads-sidebar {
@@ -744,6 +770,7 @@ section.main-content {
     display: none;
   }
 }
+
 @media screen and (max-width : 767px) {
   .logo {
     width: 50%;
@@ -871,6 +898,10 @@ section.main-content {
     margin-top: 20px;
     padding-top: 20px;
   }
+
+  .footer-content {
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-width : 568px) {
@@ -929,6 +960,12 @@ section.main-content {
     border-top: 1px solid #c3c3c3;
     margin-top: 20px;
     padding-top: 20px;
+  }
+}
+
+@media screen and (max-width : 400px) {
+  .homepage-content-header {
+    font-size: 2.5em;
   }
 }
 
@@ -1101,7 +1138,15 @@ footer img {
   margin-bottom: 20px;
 }
 
+.footer-content {
+  padding-left: 40px;
+}
+
 .dev-credit {
-  padding-right: 35px;
   padding-bottom: 5px;
+}
+
+.dev-logo {
+  cursor: pointer;
+  height: 20px;
 }
