@@ -1,6 +1,6 @@
 /* COLOUR REFERENCES
 
-Green:		#79b044
+CruxCrushGreen:		#17dbb0
 Salmon:		#dd5638
 Blue Gray:  #3e4249
 
@@ -1447,6 +1447,10 @@ i.ci.ci-twitter:hover { background-position: -480px -240px; }
 #about-us-panel-content td { width: 50%; }
 #about-us-panel-content td.contributor { width: 75%; }
 #about-us-panel-content td.contributor-img { width: 25%; }
+
+#about-us-panel-content a:hover {
+  color: #17dbb0;
+}
 
 .about-us-section-header {
   text-align: center;

@@ -50,12 +50,20 @@
             <ul class="nav navbar-nav navbar-right non-mobile-menu">
               <li class="active"><a href="index.html">Home</a></li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseResources">Resources</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#climbingNewsPanel">Climbing News</a>
               </li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTraining">Training</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#gearGossipPanel">Gear Gossip</a>
               </li>
-              <li><a href="index.html">Contact</a></li>
+              <li>
+                <a data-toggle="collapse" data-parent="#accordion" href="#getStrongPanel">Get Strong</a>
+              </li>
+              <li>
+                <a data-toggle="collapse" data-parent="#accordion" href="#inspirationPanel">Inspiration</a>
+              </li>
+              <li>
+                <a data-toggle="collapse" data-parent="#accordion" href="#girlTalkPanel">Girl Talk</a>
+              </li>
               <li><a href="https://squareup.com/market/crux-crush" target="_blank">Shop</a></li>
               <li>
                 <form class="navbar-form">
@@ -75,57 +83,53 @@
             <ul class="nav navbar-nav navbar-right mobile-menu" id="accordion0" role="tablist" aria-multiselectable="true">
               <li class="active"><a href="index.html">Home</a></li>
               <li class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
+                <div class="panel-heading" role="tab" id="headingTwo">
                   <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#accordion0" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Menu Option 1
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#climbingNews" aria-expanded="false" aria-controls="climbingNews">
+                      Climbing News
                     </a>
                   </h4>
                 </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div id="climbingNews" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                   <div class="panel-body">
                     <div class="row">
-                      <div class="col-xs-6">
-                        <h5>Subcategories</h5>
-                        <hr />
-                        <ul class="submenu-subcategories">
-                          <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
-                          <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
-                          <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
-                          <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
-                        </ul>
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
+                          <a href="post.html">
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                          </a>
+                        </div>
                       </div>
-                      <div class="col-xs-6">
-                        <h5>Recommended</h5>
-                        <hr />
-                        <ul class="submenu-subcategories">
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
                           <a href="post.html">
-                            <li class="submenu-subcategory-option">A title of an article will go here</li>
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
                           </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
                           <a href="post.html">
-                            <li class="submenu-subcategory-option">Another title here</li>
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
                           </a>
-                          <a href="post.html">
-                            <li class="submenu-subcategory-option">Another tile will go here</li>
-                          </a>
-                          <a href="post.html">
-                            <li class="submenu-subcategory-option">This will be a third title</li>
-                          </a>
-                        </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
-              <div class="panel panel-default">
+              <li class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingTwo">
                   <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Menu Option 2
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#gearGossip" aria-expanded="false" aria-controls="gearGossip">
+                      Gear Gossip
                     </a>
                   </h4>
                 </div>
-                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div id="gearGossip" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                   <div class="panel-body">
                     <div class="row">
                       <div class="col-xs-4">
@@ -155,58 +159,124 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
+              </li>
+              <li class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
                   <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Menu Option 3
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#getStrong" aria-expanded="false" aria-controls="getStrong">
+                      Get Strong
                     </a>
                   </h4>
                 </div>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div id="getStrong" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                   <div class="panel-body">
                     <div class="row">
-                      <div class="col-xs-12">
-                        <h5>Recommended</h5>
-                        <hr />
-                        <ul class="submenu-subcategories">
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
                           <a href="post.html">
-                            <li class="submenu-subcategory-option">A title of an article will go here</li>
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
                           </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
                           <a href="post.html">
-                            <li class="submenu-subcategory-option">Another title here</li>
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
                           </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
                           <a href="post.html">
-                            <li class="submenu-subcategory-option">Another tile will go here</li>
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
                           </a>
-                          <a href="post.html">
-                            <li class="submenu-subcategory-option">This will be a third title</li>
-                          </a>
-                        </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingFour">
+              </li>
+              <li class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
                   <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      Menu Option 4
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#inspiration" aria-expanded="false" aria-controls="inspiration">
+                      Inspiration
                     </a>
                   </h4>
                 </div>
-                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                <div id="inspiration" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                   <div class="panel-body">
                     <div class="row">
-                      <div class="col-xs-12">
-                        <h5>Something else entirely</h5>
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
+                          <a href="post.html">
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
+                          <a href="post.html">
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
+                          <a href="post.html">
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </li>
+              <li class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#girlTalk" aria-expanded="false" aria-controls="girlTalk">
+                      Girl Talk
+                    </a>
+                  </h4>
+                </div>
+                <div id="girlTalk" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
+                          <a href="post.html">
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
+                          <a href="post.html">
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="submenu-related-article">
+                          <a href="post.html">
+                            <img src="assets/img/climb.png" />
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
             </ul>
             <!-- mobile menu -->
           </div>
@@ -215,11 +285,11 @@
       <!-- desktop submenu -->
       <div class="panel-group non-mobile-menu" id="accordion">
         <div class="panel panel-default">
-          <div id="collapseResources" class="panel-collapse collapse">
+          <div id="climbingNewsPanel" class="panel-collapse collapse">
             <div class="panel-body submenu">
               <div class="giant-screen-settings">
                 <div class="col-md-3 col-sm-3 col-xs-3">
-                  <h4 class="submenu-header">Resources Categories:</h4>
+                  <h4 class="submenu-header">Climbing News Categories:</h4>
                   <hr />
                   <ul class="submenu-subcategories">
                     <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
@@ -285,11 +355,221 @@
           </div>
         </div>
         <div class="panel panel-default">
-          <div id="collapseTraining" class="panel-collapse collapse">
+          <div id="gearGossipPanel" class="panel-collapse collapse">
             <div class="panel-body submenu">
               <div class="giant-screen-settings">
                 <div class="col-md-3 col-sm-3 col-xs-3">
-                  <h4 class="submenu-header">Training Categories:</h4>
+                  <h4 class="submenu-header">Gear Gossip Categories:</h4>
+                  <hr />
+                  <ul class="submenu-subcategories">
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                  </ul>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-9 recommended-articles-section">
+                  <div class="row">
+                    <h4 class="submenu-header">Recommended:</h4>
+                    <hr />
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div id="getStrongPanel" class="panel-collapse collapse">
+            <div class="panel-body submenu">
+              <div class="giant-screen-settings">
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                  <h4 class="submenu-header">Get Strong Categories:</h4>
+                  <hr />
+                  <ul class="submenu-subcategories">
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                  </ul>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-9 recommended-articles-section">
+                  <div class="row">
+                    <h4 class="submenu-header">Recommended:</h4>
+                    <hr />
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div id="inspirationPanel" class="panel-collapse collapse">
+            <div class="panel-body submenu">
+              <div class="giant-screen-settings">
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                  <h4 class="submenu-header">Inspiration Categories:</h4>
+                  <hr />
+                  <ul class="submenu-subcategories">
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                    <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
+                  </ul>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-9 recommended-articles-section">
+                  <div class="row">
+                    <h4 class="submenu-header">Recommended:</h4>
+                    <hr />
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                      <div class="submenu-related-article">
+                        <a href="post.html">
+                          <img src="assets/img/climb.png" />
+                          <div class="article-thumbnail-info">
+                            <p class="article-thumbnail-title">How to crush a super long title that keeps on going</p>
+                            <a href="author.html"><p class="article-thumbnail-author">Bodie Bear</p></a>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div id="girlTalkPanel" class="panel-collapse collapse">
+            <div class="panel-body submenu">
+              <div class="giant-screen-settings">
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                  <h4 class="submenu-header">Girl Talk Categories:</h4>
                   <hr />
                   <ul class="submenu-subcategories">
                     <a href="category.html"><li class="submenu-subcategory-option">subcategory</li></a>
@@ -401,10 +681,10 @@
             <table class="table">
               <tr>
                 <td>
-                  <img src="assets/img/cc-mary.jpg" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-mary.jpg" class="founder-img" /></a>
                 </td>
                 <td>
-                  <div class="founder-name">Mary</div>
+                  <div class="founder-name"><a href="author.html">Mary</a></div>
                   <div class="founder-bio">
                     A friend introduced me to climbing in 2011 and I was quickly addicted to
                     tying in, chalky hands, and the success (and bitter defeat) that comes with
@@ -418,10 +698,10 @@
               </tr>
               <tr>
                 <td>
-                  <img src="assets/img/cc-cate.jpg" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-cate.jpg" class="founder-img" /></a>
                 </td>
                 <td>
-                  <div class="founder-name">Cate</div>
+                  <div class="founder-name"><a href="author.html">Cate</a></div>
                   <div class="founder-bio">
                     I am that girl who got into climbing because of her boyfriend. It wasn’t
                     until I started climbing with women that I truly fell in love with the
@@ -435,10 +715,10 @@
               </tr>
               <tr>
                 <td>
-                  <img src="assets/img/cc-missy.jpg" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-missy.jpg" class="founder-img" /></a>
                 </td>
                 <td>
-                  <div class="founder-name">Missy</div>
+                  <div class="founder-name"><a href="author.html">Missy</a></div>
                   <div class="founder-bio">
                     No one thought I would take to climbing. I’m a total city girl. I’ve never
                     played sports, and before climbing I never really stuck with any exercise
@@ -452,10 +732,10 @@
               </tr>
               <tr>
                 <td>
-                  <img src="assets/img/cc-emily.jpg" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-emily.jpg" class="founder-img" /></a>
                 </td>
                 <td>
-                  <div class="founder-name">Emily</div>
+                  <div class="founder-name"><a href="author.html">Emily</a></div>
                   <div class="founder-bio">
                     Climbing is my work-life balance, and I couldn’t live without the breath of
                     fresh air that trips to the crag bring. My overly practical, slightly
@@ -476,112 +756,112 @@
             <table class="table">
               <tr>
                 <td class="contributor">
-                  <div class="founder-name">Hilary</div>
+                  <div class="founder-name"><a href="author.html">Hilary</a></div>
                   <div class="founder-bio">
                     I’ve been climbing since I was 14 when I saw a fake wall set up in a mall. Initially I only climbed indoors but when I moved to New Hampshire for college I came to meet some amazing people who started taking me outside. I am always looking for ways to improve my climbing both mentally and physically. My goal is not to be a strong female climber but instead to be a strong climber who happens to be female!
                   </div>
                 </td>
                 <td class="contributor-img">
-                  <img src="assets/img/cc-hilary.jpg" />
+                  <a href="author.html"><img src="assets/img/cc-hilary.jpg" class="founder-img" /></a>
                 </td>
               </tr>
               <tr>
                 <td class="contributor">
-                  <div class="founder-name">Jocelyn</div>
+                  <div class="founder-name"><a href="author.html">Jocelyn</a></div>
                   <div class="founder-bio">
                     I started climbing in 2013, and from the get go I dove head first in to all things climbing. My background is in gymnastics and competitive dance, and I’m a yoga nerd to date. It’s the marriage of physical movement and mindfulness that inspires and motivates me. The ladies of CXC were my first climbing crushes—they climb hard, celebrate female empowerment and have a good ole’ time along the way.
                   </div>
                 </td>
                 <td class="contributor-img">
-                  <img src="assets/img/cc-jocelyn.png" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-jocelyn.png" class="founder-img" /></a>
                 </td>
               </tr>
               <tr>
                 <td class="contributor">
-                  <div class="founder-name">Caro</div>
+                  <div class="founder-name"><a href="author.html">Caro</a></div>
                   <div class="founder-bio">
                     While some climbers write history, I am a historian who writes about climbing. After my first climbing trip five years ago, I got hooked and decided to explore the history of the international climbing community in my PhD dissertation. Now you can find me messing on rock, snow, and ice in New England and the Alps, in the Caucasus and Canada, or wherever else I need to do “research.”
                   </div>
                 </td>
                 <td class="contributor-img">
-                  <img src="assets/img/cc-caro.jpeg" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-caro.jpeg" class="founder-img" /></a>
                 </td>
               </tr>
               <tr>
                 <td class="contributor">
-                  <div class="founder-name">Jess</div>
+                  <div class="founder-name"><a href="author.html">Jess</a></div>
                   <div class="founder-bio">
                     The first time I climbed I was so scared of heights I had to be pulled off the bouldering wall! Nevertheless, I fell in love with the physical demands and supportive community. CXC and my enthusiastic husband motivate me to see climbing as an opportunity to push the limits of my physical and mental strength. Currently, I’m a physiology postdoc in Baltimore using my vacation to travel the world and climb!
                   </div>
                 </td>
                 <td class="contributor-img">
-                  <img src="assets/img/cc-jess.png" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-jess.png" class="founder-img" /></a>
                 </td>
               </tr>
               <tr>
                 <td class="contributor">
-                  <div class="founder-name">Drew</div>
+                  <div class="founder-name"><a href="author.html">Drew</a></div>
                   <div class="founder-bio">
                     I’m a senior environmental studies major in Minnesota (where, unbelievably, there is some climbing!). I started climbing in 2013 and was utterly enamored with the way it forced me to move and think. I’m psyched to contribute to CXC, since I think climbing is a fantastic sport and passion for women. I’m primarily a sport climber, but I also dabble in bouldering, trad, mountaineering and ice climbing.
                   </div>
                 </td>
                 <td class="contributor-img">
-                  <img src="assets/img/cc-drew.jpg" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-drew.jpg" class="founder-img" /></a>
                 </td>
               </tr>
               <tr>
                 <td class="contributor">
-                  <div class="founder-name">Sarah</div>
+                  <div class="founder-name"><a href="author.html">Sarah</a></div>
                   <div class="founder-bio">
                     I started rock climbing on the first day of college and was hooked instantly. Now, I’m midway through medical school and have worked hard to balance studying with climbing. I love both sport climbing and bouldering and enjoy climbing outdoors as well as competing indoors. I’ve always admired how CXC has kept the female climbing community psyched and now I’m honored to be a part of it. Happy reading!
                   </div>
                 </td>
                 <td class="contributor-img">
-                  <img src="assets/img/cc-sarah.jpeg" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-sarah.jpeg" class="founder-img" /></a>
                 </td>
               </tr>
               <tr>
                 <td class="contributor">
-                  <div class="founder-name">Elaine</div>
+                  <div class="founder-name"><a href="author.html">Elaine</a></div>
                   <div class="founder-bio">
                     I am a Michigander at heart but have been living in the Southeast for 6 years. I was turned on to climbing in college and haven’t looked back since. You can find me frolicking in the woods amid the Southern sandstone, writing stories for CXC, RootsRated, and other outlets, or painting prints of my favorite outdoor destinations. Follow my adventures at @elainelliott &amp; @creativecrag.
                   </div>
                 </td>
                 <td class="contributor-img">
-                  <img src="assets/img/cc-elaine.jpeg" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-elaine.jpeg" class="founder-img" /></a>
                 </td>
               </tr>
               <tr>
                 <td class="contributor">
-                  <div class="founder-name">Catherine</div>
+                  <div class="founder-name"><a href="author.html">Catherine</a></div>
                   <div class="founder-bio">
                     I first tried climbing at a rock gym in Virginia Beach, and I can’t get enough! I love bouldering, sport, and everything that goes along with it. Climbing has taught me so much more about myself and my capabilities than I ever dreamed it would, and I’m super excited about the opportunity to be involved with the awesome CXC community! Follow my southern climbing adventures on Instagram @catownes.
                   </div>
                 </td>
                 <td class="contributor-img">
-                  <img src="assets/img/cc-catherine.jpg" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-catherine.jpg" class="founder-img" /></a>
                 </td>
               </tr>
               <tr>
                 <td class="contributor">
-                  <div class="founder-name">Meg</div>
+                  <div class="founder-name"><a href="author.html">Meg</a></div>
                   <div class="founder-bio">
                     I am a world traveler, trained graphic designer, painter, rock climber, and passionate, community-oriented person. My life goal is to magically combine all of those things! Thanks to CXC, I get to write about my effort to do so, share adventures, and work with a rad group of women. You can find me climbing and wandering around the North West, playing in my studio, or on Facebook, Instagram and Twitter @ConnectWithMeg.
                   </div>
                 </td>
                 <td class="contributor-img">
-                  <img src="assets/img/cc-meg.jpg" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-meg.jpg" class="founder-img" /></a>
                 </td>
               </tr>
               <tr>
                 <td class="contributor">
-                  <div class="founder-name">Lisa</div>
+                  <div class="founder-name"><a href="author.html">Lisa</a></div>
                   <div class="founder-bio">
                     I have been in love with food, cooking &amp; nutrition since I can remember. I earned a BS in Human Foods and Nutrition from the Univ. of Maine, went on to become an Executive Pastry Chef, and now own Lisa Caldwell your Kitchen Confidant, LLC. My primary objective remains to be nutrition education. I can be found climbing and training at the MetroRock Gym, Everett.
                   </div>
                 </td>
                 <td class="contributor-img">
-                  <img src="assets/img/cc-lisa.jpg" class="founder-img" />
+                  <a href="author.html"><img src="assets/img/cc-lisa.jpg" class="founder-img" /></a>
                 </td>
               </tr>
             </table>
@@ -631,12 +911,14 @@
           <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-6">
               <nav>
-                <h5>Nav</h5>
+                <h5>Navigation</h5>
                 <ul class="list-unstyled">
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="category.html">Training</a></li>
-                  <li><a href="category.html">Resources</a></li>
-                  <li><a href="">Contact</a></li>
+                  <li><a href="category.html">Climbing News</a></li>
+                  <li><a href="category.html">Gear Gossip</a></li>
+                  <li><a href="category.html">Get Strong</a></li>
+                  <li><a href="category.html">Inspiration</a></li>
+                  <li><a href="category.html">Girl Talk</a></li>
                 </ul>
               </nav>
             </div>
@@ -645,11 +927,11 @@
                 <h5>Crux Crush</h5>
                 <ul class="list-unstyled">
                   <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="">Team</a></li>
-                  <li><a href="">Contact</a></li>
+                  <li><a href="https://squareup.com/market/crux-crush" target="_blank">Shop</a></li>
+                  <li><a href="contact.html">Contact</a></li>
                   <li><a href="in-the-news.html">In The News</a></li>
-                  <li><a href="">Jobs</a></li>
-                  <li><a href="">Advertising</a></li>
+                  <li><a href="jobs-and-advertising.html">Jobs</a></li>
+                  <li><a href="jobs-and-advertising.html">Advertising</a></li>
                 </ul>
               </nav>
             </div>
