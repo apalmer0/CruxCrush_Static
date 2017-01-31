@@ -681,13 +681,6 @@ section.main-content {
 
 /* ==== MEDIA QUERIES ==== */
 
-@media screen and (min-width : 1500px) {
-  .giant-screen-settings {
-    margin: 0 auto;
-    width: 45%;
-  }
-}
-
 @media screen and (min-width : 1300px) {
   .navbar-brand {
     padding: 0;
@@ -722,6 +715,11 @@ section.main-content {
 
   .article-metadata {
     font-size: 25px;
+  }
+
+  .giant-screen-settings {
+    margin: 0 auto;
+    width: 1200px;
   }
 }
 
@@ -905,6 +903,15 @@ section.main-content {
 
   .article-title {
     font-size: 20px;
+  }
+
+  .article-header {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .article-title {
+    font-size: 20px !important;
   }
 
   .site-footer {
@@ -1232,10 +1239,11 @@ body {
 }
 
 .article-content-image {
-  max-width: 580px;
-  margin: 0 auto;
-  display: block;
   border: 1px solid #999;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 580px;
 }
 
 .prev-next-navigation .glyphicon {
@@ -1271,6 +1279,7 @@ body {
 .read-next-article-title {
   font-size: 15px;
   padding-top: 10px;
+  padding-left: 4px;
   color: #777;
 }
 
