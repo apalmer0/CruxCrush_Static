@@ -139,22 +139,6 @@ a.text-danger:hover {
 	background: #db4b39;
 }
 
-/* === CUSTOM ICON SPRITES === */
-
-i.ci {
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background: url('../img/icon-sprite.png') no-repeat;
-}
-
-.ci.ci-computer 	{ background-position: 0 0; }
-.ci.ci-watch		  { background-position: -40px 0; }
-.ci.ci-calendar		{ background-position: -80px 0; }
-.ci.ci-community	{ background-position: -120px 0; }
-.ci.ci-instructor	{ background-position: -160px 0; }
-.ci.ci-device		  { background-position: -200px 0; }
-
 /* ==== FORMS ==== */
 
 label {
@@ -721,6 +705,10 @@ section.main-content {
     margin: 0 auto;
     width: 1200px;
   }
+
+  i.ci {
+    zoom: 0.34 !important;
+  }
 }
 
 @media screen and (min-width : 992px) and (max-width : 1299px) {
@@ -753,6 +741,10 @@ section.main-content {
 
   .article-title {
     font-size: 30px;
+  }
+
+  i.ci {
+    zoom: 0.28 !important;
   }
 }
 
@@ -787,6 +779,10 @@ section.main-content {
 
   .article-title {
     font-size: 25px;
+  }
+
+  i.ci {
+    zoom: 0.2 !important;
   }
 }
 
@@ -944,6 +940,16 @@ section.main-content {
   .comment-email-disclaimer {
     font-size: small;
   }
+
+  .filter-option {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+
+  i.ci {
+    zoom: 0.5 !important;
+  }
 }
 
 @media screen and (max-width : 568px) {
@@ -1016,6 +1022,10 @@ section.main-content {
 @media screen and (max-width : 400px) {
   .center-panel-content-header {
     font-size: 1.5em;
+  }
+
+  i.ci {
+    zoom: 0.38 !important;
   }
 }
 
@@ -1335,3 +1345,78 @@ footer li {
   cursor: pointer;
   height: 20px;
 }
+
+/* ==== CATEGORY ==== */
+
+#category-panel-content {
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  height: 100%;
+  margin-bottom: -80px;
+  margin-top: -80px;
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+
+#category-panel-content hr {
+
+}
+
+.filter-options {
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.filter-option {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.filter-option-available {
+  background-color: #fff;
+  border: 1px solid #17dbb0;
+  color: #17dbb0;
+}
+
+.filter-option-available:hover {
+  background-color: #06a985;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.filter-option-selected {
+  background-color: #17dbb0;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.filter-option-selected:hover {
+  background-color: #96e0d0;
+  border: 1px solid #17dbb0;
+  color: #fff;
+}
+
+#social-icons {
+  margin-top: 10px;
+}
+
+/* === CUSTOM ICON SPRITES === */
+
+i.ci {
+  cursor: pointer;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+  background: url('../img/social-icons.png') no-repeat;
+}
+
+.ci.ci-insta { background-position: 0 0; }
+.ci.ci-facebook { background-position: -240px 0; }
+.ci.ci-twitter  { background-position: -480px 0; }
+
+i.ci.ci-insta:hover { background-position: 0 -240px; }
+i.ci.ci-facebook:hover { background-position: -240px -240px; }
+i.ci.ci-twitter:hover { background-position: -480px -240px; }
