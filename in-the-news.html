@@ -50,22 +50,47 @@
             <ul class="nav navbar-nav navbar-right non-mobile-menu">
               <li class="active"><a href="index.html">Home</a></li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#climbingNewsPanel">Climbing News</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#climbingNewsPanel">
+                  Climbing News
+                  <span class="caret"></span>
+                </a>
               </li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#gearGossipPanel">Gear Gossip</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#gearGossipPanel">
+                  Gear Gossip
+                  <span class="caret"></span>
+                </a>
               </li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#getStrongPanel">Get Strong</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#getStrongPanel">
+                  Get Strong
+                  <span class="caret"></span>
+                </a>
               </li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#inspirationPanel">Inspiration</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#inspirationPanel">
+                  Inspiration
+                  <span class="caret"></span>
+                </a>
               </li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#girlTalkPanel">Girl Talk</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#girlTalkPanel">
+                  Girl Talk
+                  <span class="caret"></span>
+                </a>
               </li>
-              <li><a href="https://squareup.com/market/crux-crush" target="_blank">Shop</a></li>
               <li>
+                <a href="https://squareup.com/market/crux-crush" target="_blank">
+                  Shop
+                </a>
+              </li>
+              <li class="navbar-search-smallscreen">
+                <a data-toggle="collapse" data-parent="#accordion" href="#searchPanel">
+                  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                  <span class="caret"></span>
+                </a>
+              </li>
+              <li class="navbar-search-widescreen">
                 <form class="navbar-form">
                   <div class="form-group input-group">
                     <input type="text" class="form-control" placeholder="Search">
@@ -274,6 +299,29 @@
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#searchAccordion" aria-expanded="false" aria-controls="girlTalk">
+                      Search
+                    </a>
+                  </h4>
+                </div>
+                <div id="searchAccordion" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <form class="navbar-form">
+                      <div class="form-group input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                          <button class="btn btn-default" type="button">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                          </button>
+                        </span>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </li>
@@ -634,6 +682,22 @@
             </div>
           </div>
         </div>
+        <div class="panel panel-default">
+          <div id="searchPanel" class="panel-collapse collapse">
+            <div class="panel-body submenu">
+              <form class="navbar-form">
+                <div class="form-group input-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- desktop submenu -->
     </div>
@@ -647,7 +711,7 @@
           <div class="center-panel-content-header">
             <img src="assets/img/logo-wordmark.png" class="logo-wordmark"/><span class="in-the-news-header"> In The News</span>
           </div>
-          <table class="table">
+          <table class="table desktop-table">
             <tr>
               <td>
                 <a href="http://cognitea.com/blogs/the-stories/14082765-what-3-kick-ass-climbers-can-teach-you-about-building-a-community" target="_blank">
@@ -715,6 +779,70 @@
               </td>
             </tr>
           </table>
+          <div class="mobile-table">
+            <div class="row">
+              <div class="col-xs-12">
+                <a href="http://cognitea.com/blogs/the-stories/14082765-what-3-kick-ass-climbers-can-teach-you-about-building-a-community" target="_blank">
+                  <img src="assets/img/news-cognitea.png" class="news-img" />
+                </a>
+              </div>
+              <div class="col-xs-12">
+                <div class="news-name">Cognitea</div>
+                <div class="news-title">
+                  What 3 Kick Ass Climbers Can Teach You About Building a Community
+                </div>
+              </div>
+              <hr />
+              <div class="col-xs-12">
+                <a href="https://vimeo.com/90697922" target="_blank">
+                  <img src="assets/img/news-ironmaiden.jpeg" class="news-img" />
+                </a>
+              </div>
+              <div class="col-xs-12">
+                <div class="news-name">Iron Maiden</div>
+                <div class="news-title">
+                  Iron Maiden 2014 Highlights Video
+                </div>
+              </div>
+              <hr />
+              <div class="col-xs-12">
+                <a href="http://www.metro.us/local/rock-climbing-women-call-for-a-boston-area-community-of-female-climbers-metro-us/tmWmiC---03C5R8QVZtLVo/" target="_blank">
+                  <img src="assets/img/news-metro.jpg" class="news-img" />
+                </a>
+              </div>
+              <div class="col-xs-12">
+                <div class="news-name">Boston Metro</div>
+                <div class="news-title">
+                  Rock climbing women call for a Boston-area community of female climbers
+                </div>
+              </div>
+              <hr />
+              <div class="col-xs-12">
+                <a href="#">
+                  <img src="assets/img/news-grindtv.png" class="news-img" />
+                </a>
+              </div>
+              <div class="col-xs-12">
+                <div class="news-name">GrindTV.com</div>
+                <div class="news-title">
+                  Do rock climbers need to wear more clothes?
+                </div>
+              </div>
+              <hr />
+              <div class="col-xs-12">
+                <a href="#">
+                  <img src="assets/img/news-ulondon.png" class="news-img" />
+                </a>
+              </div>
+              <div class="col-xs-12">
+                <div class="news-name">Reych, Zofia (2013)</div>
+                <div class="news-title">
+                  Climbing Women and Niche Media: Beyond alternative femininities
+                  MA Thesis at The University of London.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-sm-3 col-xs-12 ads-sidebar">
           <div id="social-icons">

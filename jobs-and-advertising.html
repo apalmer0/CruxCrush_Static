@@ -50,22 +50,47 @@
             <ul class="nav navbar-nav navbar-right non-mobile-menu">
               <li class="active"><a href="index.html">Home</a></li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#climbingNewsPanel">Climbing News</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#climbingNewsPanel">
+                  Climbing News
+                  <span class="caret"></span>
+                </a>
               </li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#gearGossipPanel">Gear Gossip</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#gearGossipPanel">
+                  Gear Gossip
+                  <span class="caret"></span>
+                </a>
               </li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#getStrongPanel">Get Strong</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#getStrongPanel">
+                  Get Strong
+                  <span class="caret"></span>
+                </a>
               </li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#inspirationPanel">Inspiration</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#inspirationPanel">
+                  Inspiration
+                  <span class="caret"></span>
+                </a>
               </li>
               <li>
-                <a data-toggle="collapse" data-parent="#accordion" href="#girlTalkPanel">Girl Talk</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#girlTalkPanel">
+                  Girl Talk
+                  <span class="caret"></span>
+                </a>
               </li>
-              <li><a href="https://squareup.com/market/crux-crush" target="_blank">Shop</a></li>
               <li>
+                <a href="https://squareup.com/market/crux-crush" target="_blank">
+                  Shop
+                </a>
+              </li>
+              <li class="navbar-search-smallscreen">
+                <a data-toggle="collapse" data-parent="#accordion" href="#searchPanel">
+                  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                  <span class="caret"></span>
+                </a>
+              </li>
+              <li class="navbar-search-widescreen">
                 <form class="navbar-form">
                   <div class="form-group input-group">
                     <input type="text" class="form-control" placeholder="Search">
@@ -274,6 +299,29 @@
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion0" href="#searchAccordion" aria-expanded="false" aria-controls="girlTalk">
+                      Search
+                    </a>
+                  </h4>
+                </div>
+                <div id="searchAccordion" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <form class="navbar-form">
+                      <div class="form-group input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                          <button class="btn btn-default" type="button">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                          </button>
+                        </span>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </li>
@@ -631,6 +679,22 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div id="searchPanel" class="panel-collapse collapse">
+            <div class="panel-body submenu">
+              <form class="navbar-form">
+                <div class="form-group input-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </form>
             </div>
           </div>
         </div>
