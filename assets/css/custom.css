@@ -1583,6 +1583,14 @@ i.ci.ci-twitter:hover { background-position: -480px -240px; }
 #in-the-news-panel-content td.contributor { width: 75%; }
 #in-the-news-panel-content td.contributor-img { width: 25%; }
 
+#in-the-news-panel-content a {
+  color: #555;
+}
+
+#in-the-news-panel-content a:hover {
+  color: #17dbb0;
+}
+
 .logo-wordmark {
   margin-top: -20px;
   width: 50%;
