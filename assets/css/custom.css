@@ -892,6 +892,14 @@ section.main-content {
     display: none;
   }
 
+  .navbar-inverse .navbar-nav>li>a {
+    padding: 10px 15px;
+  }
+
+  .panel-heading {
+    font-size: 12px;
+  }
+
   .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: none;
   }
@@ -904,6 +912,10 @@ section.main-content {
     background-color: transparent;
     color: inherit;
     border: 0;
+  }
+
+  .panel-title {
+    font-size: 12px;
   }
 
   .panel-title > a:link {
@@ -1104,7 +1116,7 @@ body {
 
 .navbar-right {
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .navbar-toggle {
@@ -1286,6 +1298,11 @@ body {
 #article-content {
   padding-top: 10px;
 }
+
+#article-content a:hover {
+  color: #17dbb0;
+}
+
 
 #article-content p {
   padding-top: 20px;
