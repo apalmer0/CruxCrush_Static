@@ -859,6 +859,10 @@ section.main-content {
   	padding: 20px;
   }
 
+  .navbar .form-control {
+  	color: #999 !important;
+  }
+
   .navbar-header {
     position: relative;
   }
